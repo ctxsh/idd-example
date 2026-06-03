@@ -1,2 +1,22 @@
 # idd-sandbox
-Demo sandbox for issue driven development
+
+Small Go service for tracking deployment requests.
+
+## Purpose
+
+This repository contains a small HTTP API for requesting, approving, and
+tracking software deployments.
+
+## Repository Layout
+
+- `docs/` - product and design notes.
+- `pkg/` - reusable Go packages.
+- `main.go` - service entry point.
+
+## Development
+
+Run the test suite with:
+
+```bash
+go test ./...
+```
